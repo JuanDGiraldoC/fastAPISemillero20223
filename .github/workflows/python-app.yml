@@ -31,5 +31,6 @@ jobs:
     - name: SonarCloud Scan
       uses: SonarSource/sonarcloud-github-action@v1.8
       with:
-        # Additional arguments to the sonarcloud scanner
         args: -Dsonar.organization=juandgiraldoc -Dsonar.projectKey=fastAPISemillero20223JDGC -Dsonar.sources=. -Dsonar.host.url=https://sonarcloud.io
+      env:
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN_SECRET }}
