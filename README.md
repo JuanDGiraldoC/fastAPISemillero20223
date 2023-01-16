@@ -1,4 +1,6 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fastAPISemillero20223JDGC&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fastAPISemillero20223JDGC)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=fastAPISemillero20223JDGC&metric=coverage)](https://sonarcloud.io/summary/new_code?id=fastAPISemillero20223JDGC)
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=fastAPISemillero20223JDGC)
 # Comandos
 ## Instalar dependencias
 `pip install --no-cache-dir --upgrade -r requirements.txt`
